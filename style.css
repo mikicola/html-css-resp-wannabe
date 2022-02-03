@@ -78,22 +78,29 @@ img {
   *{
     margin: 0;
     padding: 0;
+    
   }
   
   .row{
     /* min-width: 420px; */
     width: 100%;
     margin: auto;
-    padding-top: 20px;
+    padding: 1rem 0 1rem 0;
 
     /* background-color: #428bca; */
     display: flex;
     flex-direction: column;
   }
 
+  .row h1{
+    font-size: 1.4em;
+    font-weight: bolder;
+  }
+
   #lezioni .row,
   #why .row{
     background-color: #f2f2cd;
+    font-size: .9em;
     
   }
   
@@ -108,9 +115,21 @@ img {
 
   #why .row>.first, #why .row>.second, #why .row>.third{
     margin-top: 0;
+    padding-top: 1.5rem;
+  }
+  
+  img{
+    width: 110px;
+    height: auto;
+    padding-top: 1rem;
   }
 
-  img{
+  #lezioni .left img{
+    width: 100px;
+    height: auto;
+  }
+
+  #lezioni .right img{
     width: 150px;
     height: auto;
   }
@@ -118,7 +137,7 @@ img {
   .first img,
   .second img,
   .third img{
-    width: 100px;
+    width: 50px;
     height: auto;
   }
 }
