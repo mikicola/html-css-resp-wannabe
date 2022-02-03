@@ -80,12 +80,17 @@ img {
     padding: 0;
     
   }
+
+  body{
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+  }
   
   .row{
     /* min-width: 420px; */
     width: 100%;
     margin: auto;
-    padding: 1rem 0 1rem 0;
+    padding: 1rem 0;
 
     /* background-color: #428bca; */
     display: flex;
@@ -100,8 +105,12 @@ img {
   #lezioni .row,
   #why .row{
     background-color: #f2f2cd;
+  }
+  
+  #lezioni .row,
+  #why .row,
+  #stemps .row{
     font-size: .9em;
-    
   }
   
   #lezioni .row>.left, #lezioni .row>.right,
@@ -119,25 +128,31 @@ img {
   }
   
   img{
-    width: 110px;
+    width: 90px;
     height: auto;
     padding-top: 1rem;
   }
 
   #lezioni .left img{
-    width: 100px;
+    width: 90px;
     height: auto;
   }
 
   #lezioni .right img{
-    width: 150px;
+    width: 140px;
     height: auto;
   }
 
   .first img,
   .second img,
   .third img{
-    width: 50px;
+    width: 40px;
     height: auto;
+  }
+
+  hr{
+    height: 1px;
+    background-color: black;
+    border: none;
   }
 }
